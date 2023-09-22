@@ -34,12 +34,12 @@ const cart = [
 ]
 
 //CODE HERE
-
-const summedPrice = cart.reduce((element) => {
- element += element
+let sum = 0;
+const summedPrice = cart.reduce((element, index, array) => {
+   sum = cart.price + cart.price[]
 })
 
-console.log(summedPrice);
+console.log(sum);
 
 //////////////////PROBLEM 2////////////////////
 /*  
@@ -58,7 +58,9 @@ console.log(summedPrice);
 
 //CODE HERE
 
-
+function calcFinalPrice(cartTotal, couponValue, tax) {
+    
+}
 
 //////////////////PROBLEM 3////////////////////
 /*  
