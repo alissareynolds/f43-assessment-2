@@ -32,6 +32,16 @@
 
 //CODE HERE
 
+let pizza = {
+    name: 'cheese pizza', 
+    price: 10, 
+    category: 'entree',
+    popularity: 5,
+    rating: 10, 
+    tags: ['gluten-free', 'vegan']
+}
+
+
 
 
 //////////////////PROBLEM 2////////////////////
@@ -44,6 +54,9 @@
 
 //CODE HERE
 
+console.log(pizza.popularity);
+
+
 
 /*
     Second, log the second tag in your pizza's
@@ -55,6 +68,9 @@
 //CODE HERE
 
 
+console.log(pizza.tags['1']);
+
+
 /*
     Third, destructure the price off of the
     pizza object.
@@ -64,6 +80,8 @@
 
 //CODE HERE
 
+let {price} = pizza; 
+console.log(price);
 
 /*
     Fourth, and last, destructure the category
@@ -73,6 +91,9 @@
 */
 
 //CODE HERE
+
+let {category} = pizza; 
+console.log(category);
 
 
 //////////////////PROBLEM 3////////////////////
@@ -88,6 +109,50 @@
 */
 
 //CODE HERE
+
+let foodArr = [
+    {
+        name: 'sushi', 
+        price: 10, 
+        category: 'entree',
+        popularity: 5,
+        rating: 10, 
+        tags: ['gluten-free', 'pescatarian']
+    },
+    {
+        name: 'sandwich', 
+        price: 15, 
+        category: 'entree',
+        popularity: 3,
+        rating: 11, 
+        tags: ['dairy-free', 'vegetarian']
+    },
+    {
+        name: 'chicken nuggets', 
+        price: 8, 
+        category: 'entree',
+        popularity: 6,
+        rating: 9, 
+        tags: ['yummy', 'kids']
+    },
+    {
+        name: 'artichoke pizza', 
+        price: 10, 
+        category: 'entree',
+        popularity: 10,
+        rating: 15, 
+        tags: ['gluten-free', 'vegetarian', 'delicious']
+    }, 
+    {
+        name: 'pasta', 
+        price: 18, 
+        category: 'entree',
+        popularity: 7,
+        rating: 3, 
+        tags: ['kids', 'vegetarian']
+    }
+  
+];
 
 
 
@@ -105,9 +170,13 @@
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter((element, index, array) => {
+    if(foodArr.tags === 'vegetarian') {
+      
+    }
+})
 
-
+console.log(filteredFood);
 
 //////////////////PROBLEM 5////////////////////
 /* 
@@ -149,6 +218,14 @@
 */
 
 //CODE HERE
+function filterByProperty(property, number, type) {
+let filteredArray = array.filter(() => {
+    if(type === 'above' {
+        return 
+    })
+})
+}
+
 
 
 /*
