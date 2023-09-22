@@ -129,8 +129,6 @@ const deals = [
 
 //CODE HERE
 
-let {title} = deals; 
-title.replace('15% Off!', '10% Off!')
 
 
 /*

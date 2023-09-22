@@ -170,13 +170,14 @@ let foodArr = [
 
 //CODE HERE
 
-const filteredFood = foodArr.filter((element, index, array) => {
-    if(foodArr.tags === 'vegetarian') {
-      
+const filteredFood = (tag) => foodArr.filter((element, index, array) => {
+  for(let i = 0; i < element.tags.length; i++)
+    if (element.tags[i] === tag) {
+        return true;
     }
 })
 
-console.log(filteredFood);
+console.log('filteredFood:', filteredFood('kids'));
 
 //////////////////PROBLEM 5////////////////////
 /* 
