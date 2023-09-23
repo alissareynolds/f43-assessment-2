@@ -88,6 +88,12 @@ console.log(calcFinalPrice(100, 20, .06));
 
 /*
     TEXT ANSWER HERE
+    The properties that a resturant might need to know about its cutomers would include: - what time their reservation is at - how many guests are in their party/table - what any order/orders might be - if there are any allergies - and any guest feedback after their experience 
+    - the reservation variable is going to be a number to store the time of the guests reservation 
+    - the amount of guests is going to be stored in a number data type
+    - the order variable needs to be an array that contains what food they are going to be ordering 
+    -the guest feedback varible is going to be a string of what the guests thought of their experience 
+    - the allergy variable is going to be a string if the guest has any allergies 
 
 */
 
@@ -97,3 +103,13 @@ console.log(calcFinalPrice(100, 20, .06));
 */
 
 //CODE HERE
+
+let customer1 = {
+    reservation: 7,
+    guests: 2,
+    allergies: 'none',
+    orders: ['pizza', 'pasta'],
+    feedback: 'great'
+};
+
+console.log(customer1);
