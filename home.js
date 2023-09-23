@@ -129,6 +129,8 @@ const deals = [
 
 //CODE HERE
 
+deals[0].title = deals[0].title.replace('15%', '10%'); 
+console.log(deals);
 
 
 /*
@@ -145,3 +147,6 @@ const deals = [
 */
 
 //CODE HERE
+
+deals[1].desc = deals[1].desc.replace('March', 'April');
+console.log(deals);

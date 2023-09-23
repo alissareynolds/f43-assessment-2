@@ -219,13 +219,13 @@ console.log('filteredFood:', filteredFood('kids'));
 */
 
 //CODE HERE
-// function filterByProperty(property, number, type) {
-// let filteredArray = array.filter(() => {
-//     if(type === 'above' {
-//         return 
-//     })
-// })
-// }
+function filterByProperty(property, number, type) {
+ for (let i = 0; i < array.length; i++) {
+    if (type = 'above') {
+        return 
+    }
+ }
+}
 
 
 
